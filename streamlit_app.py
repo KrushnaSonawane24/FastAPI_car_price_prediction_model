@@ -263,7 +263,7 @@ st.markdown("""
 # Sidebar
 with st.sidebar:
     st.markdown("### ⚙️ API Settings")
-    api_url = st.text_input("API URL", value="http://localhost:8000", help="Enter your FastAPI backend URL")
+    api_url = st.text_input("API URL", value="https://fastapi-car-price-prediction-model.onrender.com", help="Enter your FastAPI backend URL")
     
     st.markdown("---")
     st.markdown("### 📊 About")
